@@ -1155,3 +1155,5 @@ async function readDataFromDB(collection, queryObject) {
 async function updateDataInDB(collection, filterObject, updateObject, options) {
 	return await mongoClient.db("anville-book").collection(collection).updateOne(filterObject, updateObject, options);
 }
+
+//THAT IS ALL FOR THE SERVER SCRIPT, THANKS FOR READING
